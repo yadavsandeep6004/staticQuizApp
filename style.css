@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(199, 209, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cantenar{
+   
+    background-color: azure;
+    width: 60vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 
+}
+#box{
+    
+    padding: 2rem 4rem;
+}
+h1 ,h2{
+    padding: 1rem 0;
+    text-align: center;
+}
+#box ul{
+   
+    margin: 1.5rem;
+}
+#box ul li{
+    list-style: none;
+    padding: 0.5rem;
+}
+label{
+    margin-left :0.5rem ;
+    font-weight: 400;
+    font-size: large;
+}
+button{
+    width: 100%;
+    padding: 1rem 0;
+    outline: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: purple;
+}
+input{
+    cursor: pointer;
+}
+#skip{
+    margin-top: 0.2rem;
+    background-color: red;
+}
